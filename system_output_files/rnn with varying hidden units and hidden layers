@@ -1,0 +1,186 @@
+/Users/amitgh/opt/miniconda3/envs/CS689HW03/bin/python "/Users/amitgh/WorkDocs/Documents/Masters in CS/UMass/COMPSCI 689/Homework/HW03/code/rnn.py"
+Sequential(
+  (0): LSTM(300, 200, batch_first=True)
+  (1): ExtractLastLayerOfRNN()
+  (2): Linear(in_features=200, out_features=100, bias=True)
+)
+Count not load model from file ../model/rnn/rnn_Optimizer.ADAM_200_1_100. Exception [Errno 2] No such file or directory: '../model/rnn/rnn_Optimizer.ADAM_200_1_100'. Learning again.
+shape of y_train_pred torch.Size([6206, 100])
+After epoch 0, train loss is 0.022897031158208847, val loss is 0.022645123302936554.
+After epoch 15, train loss is 0.020495500415563583, val loss is 0.020650874823331833.
+After epoch 30, train loss is 0.019986044615507126, val loss is 0.020521266385912895.
+After epoch 45, train loss is 0.01958223059773445, val loss is 0.020519135519862175.
+After epoch 60, train loss is 0.01914326287806034, val loss is 0.020521072670817375.
+After epoch 75, train loss is 0.018544387072324753, val loss is 0.02049894630908966.
+After epoch 90, train loss is 0.01774507574737072, val loss is 0.020480869337916374.
+After epoch 105, train loss is 0.016821688041090965, val loss is 0.020495491102337837.
+After epoch 120, train loss is 0.015883497893810272, val loss is 0.02052892930805683.
+After epoch 135, train loss is 0.015005825087428093, val loss is 0.020613519474864006.
+After epoch 150, train loss is 0.014213114976882935, val loss is 0.020753029733896255.
+After epoch 165, train loss is 0.013502338901162148, val loss is 0.020931005477905273.
+After epoch 180, train loss is 0.012866495177149773, val loss is 0.021143902093172073.
+After epoch 195, train loss is 0.01229913905262947, val loss is 0.021398775279521942.
+Final loss of model:  0.01215856708586216
+Best validation loss 0.020480869337916374 at epoch 91 for model rnn_Optimizer.ADAM_200_1_100
+Loss on training data 0.012124118383676464
+Loss on validation data 0.021493124052938326
+Sequential(
+  (0): LSTM(300, 300, batch_first=True)
+  (1): ExtractLastLayerOfRNN()
+  (2): Linear(in_features=300, out_features=100, bias=True)
+)
+Loaded learned model from file ../model/rnn/rnn_Optimizer.ADAM_300_1_100.
+Loss on training data 0.010076360235097698
+Loss on validation data 0.02238142589987104
+Sequential(
+  (0): LSTM(300, 400, batch_first=True)
+  (1): ExtractLastLayerOfRNN()
+  (2): Linear(in_features=400, out_features=100, bias=True)
+)
+Count not load model from file ../model/rnn/rnn_Optimizer.ADAM_400_1_100. Exception [Errno 2] No such file or directory: '../model/rnn/rnn_Optimizer.ADAM_400_1_100'. Learning again.
+shape of y_train_pred torch.Size([6206, 100])
+After epoch 0, train loss is 0.021911857649683952, val loss is 0.021687736734747887.
+After epoch 15, train loss is 0.020178429782390594, val loss is 0.020556755363941193.
+After epoch 30, train loss is 0.01964929699897766, val loss is 0.02056548185646534.
+After epoch 45, train loss is 0.019171953201293945, val loss is 0.02058323100209236.
+After epoch 60, train loss is 0.01846867799758911, val loss is 0.020532963797450066.
+After epoch 75, train loss is 0.01741255633533001, val loss is 0.02048734948039055.
+After epoch 90, train loss is 0.016135992482304573, val loss is 0.02049911394715309.
+After epoch 105, train loss is 0.014814190566539764, val loss is 0.020570268854498863.
+After epoch 120, train loss is 0.013562171719968319, val loss is 0.020754314959049225.
+After epoch 135, train loss is 0.012416603974997997, val loss is 0.021029559895396233.
+After epoch 150, train loss is 0.011391188949346542, val loss is 0.021404022350907326.
+After epoch 165, train loss is 0.010487329214811325, val loss is 0.021887045353651047.
+After epoch 180, train loss is 0.009697407484054565, val loss is 0.022435404360294342.
+After epoch 195, train loss is 0.009007436223328114, val loss is 0.023028211668133736.
+Final loss of model:  0.008838407695293427
+Best validation loss 0.02048734948039055 at epoch 76 for model rnn_Optimizer.ADAM_400_1_100
+Loss on training data 0.008797081057772289
+Loss on validation data 0.023235187172149806
+Sequential(
+  (0): LSTM(300, 500, batch_first=True)
+  (1): ExtractLastLayerOfRNN()
+  (2): Linear(in_features=500, out_features=100, bias=True)
+)
+Count not load model from file ../model/rnn/rnn_Optimizer.ADAM_500_1_100. Exception [Errno 2] No such file or directory: '../model/rnn/rnn_Optimizer.ADAM_500_1_100'. Learning again.
+shape of y_train_pred torch.Size([6206, 100])
+After epoch 0, train loss is 0.02160925790667534, val loss is 0.021350804716348648.
+After epoch 15, train loss is 0.020065778866410255, val loss is 0.02056107297539711.
+After epoch 30, train loss is 0.019560102373361588, val loss is 0.020605942234396935.
+After epoch 45, train loss is 0.019037513062357903, val loss is 0.020597651600837708.
+After epoch 60, train loss is 0.018184510990977287, val loss is 0.0205258596688509.
+After epoch 75, train loss is 0.01692853309214115, val loss is 0.02049792744219303.
+After epoch 90, train loss is 0.015454219654202461, val loss is 0.020482376217842102.
+After epoch 105, train loss is 0.013982883654534817, val loss is 0.020599061623215675.
+After epoch 120, train loss is 0.01262657716870308, val loss is 0.020861385390162468.
+After epoch 135, train loss is 0.011406737379729748, val loss is 0.021214425563812256.
+After epoch 150, train loss is 0.010327411815524101, val loss is 0.021691277623176575.
+After epoch 165, train loss is 0.009383134543895721, val loss is 0.022255105897784233.
+After epoch 180, train loss is 0.00856297928839922, val loss is 0.02289331518113613.
+After epoch 195, train loss is 0.007851550355553627, val loss is 0.02359696663916111.
+Final loss of model:  0.0076800803653895855
+Best validation loss 0.02048182114958763 at epoch 90 for model rnn_Optimizer.ADAM_500_1_100
+Loss on training data 0.0076420661760608615
+Loss on validation data 0.023848917013231625
+Sequential(
+  (0): LSTM(300, 200, num_layers=2, batch_first=True)
+  (1): ExtractLastLayerOfRNN()
+  (2): Linear(in_features=200, out_features=100, bias=True)
+)
+Count not load model from file ../model/rnn/rnn_Optimizer.ADAM_200_2_100. Exception [Errno 2] No such file or directory: '../model/rnn/rnn_Optimizer.ADAM_200_2_100'. Learning again.
+shape of y_train_pred torch.Size([6206, 100])
+After epoch 0, train loss is 0.022409720346331596, val loss is 0.022187460213899612.
+After epoch 15, train loss is 0.020806917920708656, val loss is 0.020641667768359184.
+After epoch 30, train loss is 0.02045179158449173, val loss is 0.02045038901269436.
+After epoch 45, train loss is 0.02010301686823368, val loss is 0.02035803161561489.
+After epoch 60, train loss is 0.019745666533708572, val loss is 0.020348496735095978.
+After epoch 75, train loss is 0.01924644410610199, val loss is 0.020353201776742935.
+After epoch 90, train loss is 0.018437102437019348, val loss is 0.020288443192839622.
+After epoch 105, train loss is 0.01738310605287552, val loss is 0.02024609036743641.
+After epoch 120, train loss is 0.016235796734690666, val loss is 0.020210083574056625.
+After epoch 135, train loss is 0.015139961615204811, val loss is 0.020272361114621162.
+After epoch 150, train loss is 0.014157547615468502, val loss is 0.020469671115279198.
+After epoch 165, train loss is 0.013301572762429714, val loss is 0.02077382802963257.
+After epoch 180, train loss is 0.012544742785394192, val loss is 0.021190889179706573.
+After epoch 195, train loss is 0.011881429702043533, val loss is 0.021662693470716476.
+Final loss of model:  0.011716983281075954
+Best validation loss 0.02020644024014473 at epoch 118 for model rnn_Optimizer.ADAM_200_2_100
+Loss on training data 0.011677173820750937
+Loss on validation data 0.021832723140435748
+Sequential(
+  (0): LSTM(300, 300, num_layers=2, batch_first=True)
+  (1): ExtractLastLayerOfRNN()
+  (2): Linear(in_features=300, out_features=100, bias=True)
+)
+Count not load model from file ../model/rnn/rnn_Optimizer.ADAM_300_2_100. Exception [Errno 2] No such file or directory: '../model/rnn/rnn_Optimizer.ADAM_300_2_100'. Learning again.
+shape of y_train_pred torch.Size([6206, 100])
+After epoch 0, train loss is 0.021983997896313667, val loss is 0.0216753501445055.
+After epoch 15, train loss is 0.020694538950920105, val loss is 0.02057565003633499.
+After epoch 30, train loss is 0.02026859112083912, val loss is 0.020420344546437263.
+After epoch 45, train loss is 0.0198881346732378, val loss is 0.02037709578871727.
+After epoch 60, train loss is 0.019432367756962776, val loss is 0.02039991319179535.
+After epoch 75, train loss is 0.018702687695622444, val loss is 0.02035542018711567.
+After epoch 90, train loss is 0.017534634098410606, val loss is 0.02033391036093235.
+After epoch 105, train loss is 0.01613723672926426, val loss is 0.02026902697980404.
+After epoch 120, train loss is 0.01480746828019619, val loss is 0.0202871635556221.
+After epoch 135, train loss is 0.013612602837383747, val loss is 0.0205533467233181.
+After epoch 150, train loss is 0.012522702105343342, val loss is 0.021004024893045425.
+After epoch 165, train loss is 0.011556793935596943, val loss is 0.021544713526964188.
+After epoch 180, train loss is 0.01072357501834631, val loss is 0.02211897261440754.
+After epoch 195, train loss is 0.010018933564424515, val loss is 0.02277497947216034.
+Final loss of model:  0.009841217659413815
+Best validation loss 0.02026115171611309 at epoch 113 for model rnn_Optimizer.ADAM_300_2_100
+Loss on training data 0.009797667938224985
+Loss on validation data 0.022992193317701335
+Sequential(
+  (0): LSTM(300, 400, num_layers=2, batch_first=True)
+  (1): ExtractLastLayerOfRNN()
+  (2): Linear(in_features=400, out_features=100, bias=True)
+)
+Count not load model from file ../model/rnn/rnn_Optimizer.ADAM_400_2_100. Exception [Errno 2] No such file or directory: '../model/rnn/rnn_Optimizer.ADAM_400_2_100'. Learning again.
+shape of y_train_pred torch.Size([6206, 100])
+After epoch 0, train loss is 0.021812887862324715, val loss is 0.021555041894316673.
+After epoch 15, train loss is 0.020597748458385468, val loss is 0.020508376881480217.
+After epoch 30, train loss is 0.020143821835517883, val loss is 0.02037622593343258.
+After epoch 45, train loss is 0.019742708653211594, val loss is 0.020398860797286034.
+After epoch 60, train loss is 0.019236493855714798, val loss is 0.02040594071149826.
+After epoch 75, train loss is 0.01835116185247898, val loss is 0.02037663199007511.
+After epoch 90, train loss is 0.016982251778244972, val loss is 0.020363179966807365.
+After epoch 105, train loss is 0.015434077940881252, val loss is 0.02034527249634266.
+After epoch 120, train loss is 0.014040054753422737, val loss is 0.020429600030183792.
+After epoch 135, train loss is 0.012766378000378609, val loss is 0.02077021263539791.
+After epoch 150, train loss is 0.0116124851629138, val loss is 0.021325908601284027.
+After epoch 165, train loss is 0.010614466853439808, val loss is 0.021918296813964844.
+After epoch 180, train loss is 0.00976206362247467, val loss is 0.02258364111185074.
+After epoch 195, train loss is 0.00901954248547554, val loss is 0.02329196035861969.
+Final loss of model:  0.00883499626070261
+Best validation loss 0.02033201791346073 at epoch 110 for model rnn_Optimizer.ADAM_400_2_100
+Loss on training data 0.00878712834282219
+Loss on validation data 0.02350092651868354
+Sequential(
+  (0): LSTM(300, 500, num_layers=2, batch_first=True)
+  (1): ExtractLastLayerOfRNN()
+  (2): Linear(in_features=500, out_features=100, bias=True)
+)
+Count not load model from file ../model/rnn/rnn_Optimizer.ADAM_500_2_100. Exception [Errno 2] No such file or directory: '../model/rnn/rnn_Optimizer.ADAM_500_2_100'. Learning again.
+shape of y_train_pred torch.Size([6206, 100])
+After epoch 0, train loss is 0.021424314007163048, val loss is 0.021179141476750374.
+After epoch 15, train loss is 0.020483985543251038, val loss is 0.020479705184698105.
+After epoch 30, train loss is 0.019998811185359955, val loss is 0.020390717312693596.
+After epoch 45, train loss is 0.019554980099201202, val loss is 0.020453888922929764.
+After epoch 60, train loss is 0.018913917243480682, val loss is 0.020443802699446678.
+After epoch 75, train loss is 0.017713909968733788, val loss is 0.020477179437875748.
+After epoch 90, train loss is 0.01611032523214817, val loss is 0.02039388194680214.
+After epoch 105, train loss is 0.014519023708999157, val loss is 0.02039283700287342.
+After epoch 120, train loss is 0.013097965158522129, val loss is 0.020681852474808693.
+After epoch 135, train loss is 0.011831426993012428, val loss is 0.021207278594374657.
+After epoch 150, train loss is 0.01071077585220337, val loss is 0.02182396687567234.
+After epoch 165, train loss is 0.009737561456859112, val loss is 0.022479671984910965.
+After epoch 180, train loss is 0.008923198096454144, val loss is 0.02316468022763729.
+After epoch 195, train loss is 0.008200974203646183, val loss is 0.023888591676950455.
+Final loss of model:  0.008038315922021866
+Best validation loss 0.020360112190246582 at epoch 102 for model rnn_Optimizer.ADAM_500_2_100
+Loss on training data 0.008014865045535714
+Loss on validation data 0.024166856573750548
+
+Process finished with exit code 0

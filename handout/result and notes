@@ -1,0 +1,68 @@
+Learning for CNN model:
+
+For 50 and 400 epochs, the model used was:
+
+Sequential(
+  (0): Conv1d(1, 4, kernel_size=(5,), stride=(1,))
+  (1): ReLU()
+  (2): MaxPool1d(kernel_size=5, stride=1, padding=0, dilation=1, ceil_mode=False)
+  (3): Conv1d(4, 8, kernel_size=(4,), stride=(1,))
+  (4): ReLU()
+  (5): MaxPool1d(kernel_size=4, stride=1, padding=0, dilation=1, ceil_mode=False)
+  (6): Conv1DToLinearConverter()
+  (7): Linear(in_features=2288, out_features=100, bias=True)
+)
+
+
+For 30 epochs, the model used was:
+
+Sequential(
+  (0): Conv1d(1, 4, kernel_size=(5,), stride=(1,))
+  (1): ReLU()
+  (2): MaxPool1d(kernel_size=5, stride=1, padding=0, dilation=1, ceil_mode=False)
+  (3): Conv1d(4, 8, kernel_size=(4,), stride=(1,))
+  (4): ReLU()
+  (5): MaxPool1d(kernel_size=4, stride=1, padding=0, dilation=1, ceil_mode=False)
+  (6): Conv1DToLinearConverter()
+  (7): Linear(in_features=2288, out_features=300, bias=True)
+  (8): ReLU(inplace=True)
+  (9): Linear(in_features=300, out_features=100, bias=True)
+)
+
+Loss on training data: 0.020773339684437057
+Loss on validation data: 0.020622364605572343
+
+For 100 epochs, same model of 30 epochs was used:
+
+Loss on training data: 0.018098972262248783
+Loss on validation data: 0.01988495862073186
+
+For 390 epochs, same model of 30 epochs was used. Best validation set loss was at around 120 epochs.
+
+Loss on training data: 0.012694132721997148
+Loss on validation data: 0.022320790354982262
+
+For 120 epochs, we used the same above model.
+
+Loss on training data: 0.01728281515258669
+Loss on validation data: 0.019747644046579683
+
+For 120 epochs on RNN model. Best performance was for 120 epochs.
+
+Loss on training data 0.014607716644513371
+Loss on validation data 0.019711210830960522
+
+Sequential(
+  (0): LSTM(300, 300, num_layers=3, batch_first=True)
+  (1): ExtractLastLayerOfRNN()
+  (2): Linear(in_features=300, out_features=200, bias=True)
+  (3): ReLU(inplace=True)
+  (4): Linear(in_features=200, out_features=100, bias=True)
+)
+
+
+-----------
+
+Baseline from the given architecture:
+Training loss: 0.0183
+Validation loss: 0.0196

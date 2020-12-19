@@ -1,0 +1,8 @@
+# This folder stores the NN, CNN, RNN models and are large in size.
+model/
+# This folder contains all the plots that were created during the project. Only a handful of those were
+# needed for the report. Rest all were just for exploration purpose.
+plots/
+# Intellij files
+.idea/
+.DS_Store

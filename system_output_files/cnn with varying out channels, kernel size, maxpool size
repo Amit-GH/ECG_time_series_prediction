@@ -1,0 +1,244 @@
+/Users/amitgh/opt/miniconda3/envs/CS689HW03/bin/python "/Users/amitgh/WorkDocs/Documents/Masters in CS/UMass/COMPSCI 689/Homework/HW03/code/cnn.py"
+Sequential(
+  (0): Conv1d(1, 4, kernel_size=(3,), stride=(1,))
+  (1): ReLU()
+  (2): MaxPool1d(kernel_size=2, stride=1, padding=0, dilation=1, ceil_mode=False)
+  (3): Conv1d(4, 4, kernel_size=(3,), stride=(1,))
+  (4): ReLU()
+  (5): MaxPool1d(kernel_size=2, stride=1, padding=0, dilation=1, ceil_mode=False)
+  (6): Conv1DToLinearConverter()
+  (7): Linear(in_features=1176, out_features=100, bias=True)
+)
+Count not load model from file ../model/cnn/cnn_2blocks_4_3_1_2_and_4_3_1_2. Exception [Errno 2] No such file or directory: '../model/cnn/cnn_2blocks_4_3_1_2_and_4_3_1_2'. Learning again.
+shape of y_train_pred torch.Size([6206, 100])
+Loss after epoch  0 tensor(0.0233, grad_fn=<MseLossBackward>)
+Loss after epoch  10 tensor(0.0213, grad_fn=<MseLossBackward>)
+Loss after epoch  20 tensor(0.0209, grad_fn=<MseLossBackward>)
+Loss after epoch  30 tensor(0.0208, grad_fn=<MseLossBackward>)
+Loss after epoch  40 tensor(0.0207, grad_fn=<MseLossBackward>)
+Loss after epoch  50 tensor(0.0206, grad_fn=<MseLossBackward>)
+Loss after epoch  60 tensor(0.0204, grad_fn=<MseLossBackward>)
+Loss after epoch  70 tensor(0.0203, grad_fn=<MseLossBackward>)
+Loss after epoch  80 tensor(0.0202, grad_fn=<MseLossBackward>)
+Loss after epoch  90 tensor(0.0201, grad_fn=<MseLossBackward>)
+Final loss of model:  0.020059628412127495
+Best validation loss 0.020624753087759018 at epoch 43 for model cnn_2blocks_4_3_1_2_and_4_3_1_2
+Loss on training data: 0.020050798994393163
+Loss on validation data: 0.020951529937231882
+num parameters  6
+Sequential(
+  (0): Conv1d(1, 10, kernel_size=(3,), stride=(1,))
+  (1): ReLU()
+  (2): MaxPool1d(kernel_size=2, stride=1, padding=0, dilation=1, ceil_mode=False)
+  (3): Conv1d(10, 10, kernel_size=(3,), stride=(1,))
+  (4): ReLU()
+  (5): MaxPool1d(kernel_size=2, stride=1, padding=0, dilation=1, ceil_mode=False)
+  (6): Conv1DToLinearConverter()
+  (7): Linear(in_features=2940, out_features=100, bias=True)
+)
+Count not load model from file ../model/cnn/cnn_2blocks_10_3_1_2_and_10_3_1_2. Exception [Errno 2] No such file or directory: '../model/cnn/cnn_2blocks_10_3_1_2_and_10_3_1_2'. Learning again.
+shape of y_train_pred torch.Size([6206, 100])
+Loss after epoch  0 tensor(0.0231, grad_fn=<MseLossBackward>)
+Loss after epoch  10 tensor(0.0215, grad_fn=<MseLossBackward>)
+Loss after epoch  20 tensor(0.0208, grad_fn=<MseLossBackward>)
+Loss after epoch  30 tensor(0.0203, grad_fn=<MseLossBackward>)
+Loss after epoch  40 tensor(0.0199, grad_fn=<MseLossBackward>)
+Loss after epoch  50 tensor(0.0196, grad_fn=<MseLossBackward>)
+Loss after epoch  60 tensor(0.0193, grad_fn=<MseLossBackward>)
+Loss after epoch  70 tensor(0.0190, grad_fn=<MseLossBackward>)
+Loss after epoch  80 tensor(0.0188, grad_fn=<MseLossBackward>)
+Loss after epoch  90 tensor(0.0185, grad_fn=<MseLossBackward>)
+Final loss of model:  0.018294844776391983
+Best validation loss 0.020651167258620262 at epoch 24 for model cnn_2blocks_10_3_1_2_and_10_3_1_2
+Loss on training data: 0.018270988702605285
+Loss on validation data: 0.021476226826966194
+num parameters  6
+Sequential(
+  (0): Conv1d(1, 20, kernel_size=(3,), stride=(1,))
+  (1): ReLU()
+  (2): MaxPool1d(kernel_size=2, stride=1, padding=0, dilation=1, ceil_mode=False)
+  (3): Conv1d(20, 20, kernel_size=(3,), stride=(1,))
+  (4): ReLU()
+  (5): MaxPool1d(kernel_size=2, stride=1, padding=0, dilation=1, ceil_mode=False)
+  (6): Conv1DToLinearConverter()
+  (7): Linear(in_features=5880, out_features=100, bias=True)
+)
+Count not load model from file ../model/cnn/cnn_2blocks_20_3_1_2_and_20_3_1_2. Exception [Errno 2] No such file or directory: '../model/cnn/cnn_2blocks_20_3_1_2_and_20_3_1_2'. Learning again.
+shape of y_train_pred torch.Size([6206, 100])
+Loss after epoch  0 tensor(0.0253, grad_fn=<MseLossBackward>)
+Loss after epoch  10 tensor(0.0362, grad_fn=<MseLossBackward>)
+Loss after epoch  20 tensor(0.0235, grad_fn=<MseLossBackward>)
+Loss after epoch  30 tensor(0.0209, grad_fn=<MseLossBackward>)
+Loss after epoch  40 tensor(0.0206, grad_fn=<MseLossBackward>)
+Loss after epoch  50 tensor(0.0202, grad_fn=<MseLossBackward>)
+Loss after epoch  60 tensor(0.0198, grad_fn=<MseLossBackward>)
+Loss after epoch  70 tensor(0.0196, grad_fn=<MseLossBackward>)
+Loss after epoch  80 tensor(0.0194, grad_fn=<MseLossBackward>)
+Loss after epoch  90 tensor(0.0193, grad_fn=<MseLossBackward>)
+Final loss of model:  0.019164862111210823
+Best validation loss 0.020695043727755547 at epoch 45 for model cnn_2blocks_20_3_1_2_and_20_3_1_2
+Loss on training data: 0.019153571343825688
+Loss on validation data: 0.021356655463018997
+num parameters  6
+Sequential(
+  (0): Conv1d(1, 10, kernel_size=(5,), stride=(1,))
+  (1): ReLU()
+  (2): MaxPool1d(kernel_size=2, stride=1, padding=0, dilation=1, ceil_mode=False)
+  (3): Conv1d(10, 10, kernel_size=(5,), stride=(1,))
+  (4): ReLU()
+  (5): MaxPool1d(kernel_size=2, stride=1, padding=0, dilation=1, ceil_mode=False)
+  (6): Conv1DToLinearConverter()
+  (7): Linear(in_features=2900, out_features=100, bias=True)
+)
+Count not load model from file ../model/cnn/cnn_2blocks_10_5_1_2_and_10_5_1_2. Exception [Errno 2] No such file or directory: '../model/cnn/cnn_2blocks_10_5_1_2_and_10_5_1_2'. Learning again.
+shape of y_train_pred torch.Size([6206, 100])
+Loss after epoch  0 tensor(0.0294, grad_fn=<MseLossBackward>)
+Loss after epoch  10 tensor(0.0239, grad_fn=<MseLossBackward>)
+Loss after epoch  20 tensor(0.0213, grad_fn=<MseLossBackward>)
+Loss after epoch  30 tensor(0.0208, grad_fn=<MseLossBackward>)
+Loss after epoch  40 tensor(0.0206, grad_fn=<MseLossBackward>)
+Loss after epoch  50 tensor(0.0204, grad_fn=<MseLossBackward>)
+Loss after epoch  60 tensor(0.0203, grad_fn=<MseLossBackward>)
+Loss after epoch  70 tensor(0.0201, grad_fn=<MseLossBackward>)
+Loss after epoch  80 tensor(0.0200, grad_fn=<MseLossBackward>)
+Loss after epoch  90 tensor(0.0200, grad_fn=<MseLossBackward>)
+Final loss of model:  0.019861601293087006
+Best validation loss 0.02071348950266838 at epoch 42 for model cnn_2blocks_10_5_1_2_and_10_5_1_2
+Loss on training data: 0.01985126019175448
+Loss on validation data: 0.02101805357998405
+num parameters  6
+Sequential(
+  (0): Conv1d(1, 10, kernel_size=(10,), stride=(1,))
+  (1): ReLU()
+  (2): MaxPool1d(kernel_size=2, stride=1, padding=0, dilation=1, ceil_mode=False)
+  (3): Conv1d(10, 10, kernel_size=(10,), stride=(1,))
+  (4): ReLU()
+  (5): MaxPool1d(kernel_size=2, stride=1, padding=0, dilation=1, ceil_mode=False)
+  (6): Conv1DToLinearConverter()
+  (7): Linear(in_features=2800, out_features=100, bias=True)
+)
+Count not load model from file ../model/cnn/cnn_2blocks_10_10_1_2_and_10_10_1_2. Exception [Errno 2] No such file or directory: '../model/cnn/cnn_2blocks_10_10_1_2_and_10_10_1_2'. Learning again.
+shape of y_train_pred torch.Size([6206, 100])
+Loss after epoch  0 tensor(0.0222, grad_fn=<MseLossBackward>)
+Loss after epoch  10 tensor(0.0209, grad_fn=<MseLossBackward>)
+Loss after epoch  20 tensor(0.0205, grad_fn=<MseLossBackward>)
+Loss after epoch  30 tensor(0.0200, grad_fn=<MseLossBackward>)
+Loss after epoch  40 tensor(0.0196, grad_fn=<MseLossBackward>)
+Loss after epoch  50 tensor(0.0192, grad_fn=<MseLossBackward>)
+Loss after epoch  60 tensor(0.0189, grad_fn=<MseLossBackward>)
+Loss after epoch  70 tensor(0.0185, grad_fn=<MseLossBackward>)
+Loss after epoch  80 tensor(0.0182, grad_fn=<MseLossBackward>)
+Loss after epoch  90 tensor(0.0178, grad_fn=<MseLossBackward>)
+Final loss of model:  0.017406899482011795
+Best validation loss 0.020618170499801636 at epoch 20 for model cnn_2blocks_10_10_1_2_and_10_10_1_2
+Loss on training data: 0.01736536772115604
+Loss on validation data: 0.02222270667204267
+num parameters  6
+Sequential(
+  (0): Conv1d(1, 10, kernel_size=(20,), stride=(1,))
+  (1): ReLU()
+  (2): MaxPool1d(kernel_size=2, stride=1, padding=0, dilation=1, ceil_mode=False)
+  (3): Conv1d(10, 10, kernel_size=(20,), stride=(1,))
+  (4): ReLU()
+  (5): MaxPool1d(kernel_size=2, stride=1, padding=0, dilation=1, ceil_mode=False)
+  (6): Conv1DToLinearConverter()
+  (7): Linear(in_features=2600, out_features=100, bias=True)
+)
+Count not load model from file ../model/cnn/cnn_2blocks_10_20_1_2_and_10_20_1_2. Exception [Errno 2] No such file or directory: '../model/cnn/cnn_2blocks_10_20_1_2_and_10_20_1_2'. Learning again.
+shape of y_train_pred torch.Size([6206, 100])
+Loss after epoch  0 tensor(0.0214, grad_fn=<MseLossBackward>)
+Loss after epoch  10 tensor(0.0207, grad_fn=<MseLossBackward>)
+Loss after epoch  20 tensor(0.0202, grad_fn=<MseLossBackward>)
+Loss after epoch  30 tensor(0.0197, grad_fn=<MseLossBackward>)
+Loss after epoch  40 tensor(0.0192, grad_fn=<MseLossBackward>)
+Loss after epoch  50 tensor(0.0188, grad_fn=<MseLossBackward>)
+Loss after epoch  60 tensor(0.0183, grad_fn=<MseLossBackward>)
+Loss after epoch  70 tensor(0.0178, grad_fn=<MseLossBackward>)
+Loss after epoch  80 tensor(0.0172, grad_fn=<MseLossBackward>)
+Loss after epoch  90 tensor(0.0168, grad_fn=<MseLossBackward>)
+Final loss of model:  0.016367100179195404
+Best validation loss 0.020668143406510353 at epoch 11 for model cnn_2blocks_10_20_1_2_and_10_20_1_2
+Loss on training data: 0.01632939542269772
+Loss on validation data: 0.023511310924797153
+num parameters  6
+Sequential(
+  (0): Conv1d(1, 10, kernel_size=(10,), stride=(1,))
+  (1): ReLU()
+  (2): MaxPool1d(kernel_size=3, stride=1, padding=0, dilation=1, ceil_mode=False)
+  (3): Conv1d(10, 10, kernel_size=(10,), stride=(1,))
+  (4): ReLU()
+  (5): MaxPool1d(kernel_size=3, stride=1, padding=0, dilation=1, ceil_mode=False)
+  (6): Conv1DToLinearConverter()
+  (7): Linear(in_features=2780, out_features=100, bias=True)
+)
+Count not load model from file ../model/cnn/cnn_2blocks_10_10_1_3_and_10_10_1_3. Exception [Errno 2] No such file or directory: '../model/cnn/cnn_2blocks_10_10_1_3_and_10_10_1_3'. Learning again.
+shape of y_train_pred torch.Size([6206, 100])
+Loss after epoch  0 tensor(0.0227, grad_fn=<MseLossBackward>)
+Loss after epoch  10 tensor(0.0212, grad_fn=<MseLossBackward>)
+Loss after epoch  20 tensor(0.0208, grad_fn=<MseLossBackward>)
+Loss after epoch  30 tensor(0.0206, grad_fn=<MseLossBackward>)
+Loss after epoch  40 tensor(0.0203, grad_fn=<MseLossBackward>)
+Loss after epoch  50 tensor(0.0200, grad_fn=<MseLossBackward>)
+Loss after epoch  60 tensor(0.0198, grad_fn=<MseLossBackward>)
+Loss after epoch  70 tensor(0.0197, grad_fn=<MseLossBackward>)
+Loss after epoch  80 tensor(0.0196, grad_fn=<MseLossBackward>)
+Loss after epoch  90 tensor(0.0195, grad_fn=<MseLossBackward>)
+Final loss of model:  0.019362512975931168
+Best validation loss 0.020700721070170403 at epoch 21 for model cnn_2blocks_10_10_1_3_and_10_10_1_3
+Loss on training data: 0.01935149722617698
+Loss on validation data: 0.02113305231276147
+num parameters  6
+Sequential(
+  (0): Conv1d(1, 10, kernel_size=(10,), stride=(1,))
+  (1): ReLU()
+  (2): MaxPool1d(kernel_size=5, stride=1, padding=0, dilation=1, ceil_mode=False)
+  (3): Conv1d(10, 10, kernel_size=(10,), stride=(1,))
+  (4): ReLU()
+  (5): MaxPool1d(kernel_size=5, stride=1, padding=0, dilation=1, ceil_mode=False)
+  (6): Conv1DToLinearConverter()
+  (7): Linear(in_features=2740, out_features=100, bias=True)
+)
+Count not load model from file ../model/cnn/cnn_2blocks_10_10_1_5_and_10_10_1_5. Exception [Errno 2] No such file or directory: '../model/cnn/cnn_2blocks_10_10_1_5_and_10_10_1_5'. Learning again.
+shape of y_train_pred torch.Size([6206, 100])
+Loss after epoch  0 tensor(0.0247, grad_fn=<MseLossBackward>)
+Loss after epoch  10 tensor(0.0214, grad_fn=<MseLossBackward>)
+Loss after epoch  20 tensor(0.0209, grad_fn=<MseLossBackward>)
+Loss after epoch  30 tensor(0.0207, grad_fn=<MseLossBackward>)
+Loss after epoch  40 tensor(0.0206, grad_fn=<MseLossBackward>)
+Loss after epoch  50 tensor(0.0205, grad_fn=<MseLossBackward>)
+Loss after epoch  60 tensor(0.0205, grad_fn=<MseLossBackward>)
+Loss after epoch  70 tensor(0.0204, grad_fn=<MseLossBackward>)
+Loss after epoch  80 tensor(0.0203, grad_fn=<MseLossBackward>)
+Loss after epoch  90 tensor(0.0203, grad_fn=<MseLossBackward>)
+Final loss of model:  0.02023465745151043
+Best validation loss 0.020675363019108772 at epoch 30 for model cnn_2blocks_10_10_1_5_and_10_10_1_5
+Loss on training data: 0.020229213771412558
+Loss on validation data: 0.020991544501623983
+num parameters  6
+Sequential(
+  (0): Conv1d(1, 10, kernel_size=(10,), stride=(1,))
+  (1): ReLU()
+  (2): MaxPool1d(kernel_size=8, stride=1, padding=0, dilation=1, ceil_mode=False)
+  (3): Conv1d(10, 10, kernel_size=(10,), stride=(1,))
+  (4): ReLU()
+  (5): MaxPool1d(kernel_size=8, stride=1, padding=0, dilation=1, ceil_mode=False)
+  (6): Conv1DToLinearConverter()
+  (7): Linear(in_features=2680, out_features=100, bias=True)
+)
+Count not load model from file ../model/cnn/cnn_2blocks_10_10_1_8_and_10_10_1_8. Exception [Errno 2] No such file or directory: '../model/cnn/cnn_2blocks_10_10_1_8_and_10_10_1_8'. Learning again.
+shape of y_train_pred torch.Size([6206, 100])
+Loss after epoch  0 tensor(0.0226, grad_fn=<MseLossBackward>)
+Loss after epoch  10 tensor(0.0212, grad_fn=<MseLossBackward>)
+Loss after epoch  20 tensor(0.0207, grad_fn=<MseLossBackward>)
+Loss after epoch  30 tensor(0.0204, grad_fn=<MseLossBackward>)
+Loss after epoch  40 tensor(0.0202, grad_fn=<MseLossBackward>)
+Loss after epoch  50 tensor(0.0200, grad_fn=<MseLossBackward>)
+Loss after epoch  60 tensor(0.0197, grad_fn=<MseLossBackward>)
+Loss after epoch  70 tensor(0.0195, grad_fn=<MseLossBackward>)
+Loss after epoch  80 tensor(0.0191, grad_fn=<MseLossBackward>)
+Loss after epoch  90 tensor(0.0188, grad_fn=<MseLossBackward>)
+Final loss of model:  0.01844646967947483
+Best validation loss 0.02064669318497181 at epoch 24 for model cnn_2blocks_10_10_1_8_and_10_10_1_8
+Loss on training data: 0.01841187341013589
+Loss on validation data: 0.02161717096776978
+num parameters  6

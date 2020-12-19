@@ -1,0 +1,263 @@
+/Users/amitgh/opt/miniconda3/envs/CS689HW03/bin/python "/Users/amitgh/WorkDocs/Documents/Masters in CS/UMass/COMPSCI 689/Homework/HW03/code/my_nn.py"
+Sequential(
+  (0): Linear(in_features=300, out_features=50, bias=True)
+  (1): ReLU()
+  (2): Linear(in_features=50, out_features=100, bias=True)
+)
+Cound not load model from file ../model/nn/nn_{'hl_1_units': 50, 'hl_2_units': 0, 'learning_rate': 0.001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optimizer.ADAM: 1>}. Exception [Errno 2] No such file or directory: "../model/nn/nn_{'hl_1_units': 50, 'hl_2_units': 0, 'learning_rate': 0.001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optimizer.ADAM: 1>}". Learning again.
+shape of y_train_pred torch.Size([6206, 100])
+Train and Validation losses after epoch  0 0.028634540736675262 0.028338061645627022
+Train and Validation losses after epoch  10 0.02451515570282936 0.02437659725546837
+Train and Validation losses after epoch  20 0.02243119850754738 0.02245103195309639
+Train and Validation losses after epoch  30 0.02137874811887741 0.021554360166192055
+Train and Validation losses after epoch  40 0.020866641774773598 0.02113903872668743
+Train and Validation losses after epoch  50 0.02056342363357544 0.020906681194901466
+Train and Validation losses after epoch  60 0.020353978499770164 0.020773092284798622
+Train and Validation losses after epoch  70 0.02018904685974121 0.020693132653832436
+Train and Validation losses after epoch  80 0.020046360790729523 0.020640088245272636
+Train and Validation losses after epoch  90 0.019915247336030006 0.020607290789484978
+Train and Validation losses after epoch  100 0.019791098311543465 0.020587192848324776
+Train and Validation losses after epoch  110 0.019672468304634094 0.02057507261633873
+Train and Validation losses after epoch  120 0.019557492807507515 0.020572589710354805
+Train and Validation losses after epoch  130 0.01944485493004322 0.020577790215611458
+Train and Validation losses after epoch  140 0.019334187731146812 0.020589303225278854
+Train and Validation losses after epoch  150 0.019225893542170525 0.02060486003756523
+Train and Validation losses after epoch  160 0.01912040449678898 0.02063017711043358
+Train and Validation losses after epoch  170 0.019017064943909645 0.02065025456249714
+Train and Validation losses after epoch  180 0.018915778025984764 0.020673610270023346
+Train and Validation losses after epoch  190 0.018816901370882988 0.02070312760770321
+Train and Validation losses after epoch  200 0.018720844760537148 0.02073388732969761
+Train and Validation losses after epoch  210 0.018627258017659187 0.020769786089658737
+Train and Validation losses after epoch  220 0.018535809591412544 0.020808488130569458
+Train and Validation losses after epoch  230 0.018446622416377068 0.02085164189338684
+Train and Validation losses after epoch  240 0.018359467387199402 0.020894180983304977
+Train and Validation losses after epoch  250 0.01827455684542656 0.020939677953720093
+Train and Validation losses after epoch  260 0.01819298416376114 0.02098916471004486
+Train and Validation losses after epoch  270 0.01811443828046322 0.02103218249976635
+Train and Validation losses after epoch  280 0.018039166927337646 0.021082771942019463
+Train and Validation losses after epoch  290 0.017967520281672478 0.02113158069550991
+Train and Validation losses after epoch  300 0.01789901778101921 0.02117660641670227
+Train and Validation losses after epoch  310 0.01783212646842003 0.02122027799487114
+Train and Validation losses after epoch  320 0.017768310382962227 0.021262992173433304
+Train and Validation losses after epoch  330 0.01770738698542118 0.021306071430444717
+Train and Validation losses after epoch  340 0.017648834735155106 0.021350229158997536
+Train and Validation losses after epoch  350 0.01759267784655094 0.021394778043031693
+Train and Validation losses after epoch  360 0.01753823831677437 0.02144322358071804
+Train and Validation losses after epoch  370 0.01748594269156456 0.021489141508936882
+Train and Validation losses after epoch  380 0.01743650995194912 0.021531211212277412
+Train and Validation losses after epoch  390 0.017389625310897827 0.021578781306743622
+Final loss of model:  0.01734897308051586
+Best validation loss 0.020571911707520485 at epoch 118 for model nn_{'hl_1_units': 50, 'hl_2_units': 0, 'learning_rate': 0.001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optimizer.ADAM: 1>}
+Loss on training data: 0.01734459331773745
+Loss on validation data: 0.02162306375156986
+num parameters  4
+Sequential(
+  (0): Linear(in_features=300, out_features=100, bias=True)
+  (1): ReLU()
+  (2): Linear(in_features=100, out_features=100, bias=True)
+)
+Cound not load model from file ../model/nn/nn_{'hl_1_units': 100, 'hl_2_units': 0, 'learning_rate': 0.001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optimizer.ADAM: 1>}. Exception [Errno 2] No such file or directory: "../model/nn/nn_{'hl_1_units': 100, 'hl_2_units': 0, 'learning_rate': 0.001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optimizer.ADAM: 1>}". Learning again.
+shape of y_train_pred torch.Size([6206, 100])
+Train and Validation losses after epoch  0 0.02530658431351185 0.025002898648381233
+Train and Validation losses after epoch  10 0.021741213276982307 0.02179924212396145
+Train and Validation losses after epoch  20 0.020767362788319588 0.021108699962496758
+Train and Validation losses after epoch  30 0.020353088155388832 0.02085641771554947
+Train and Validation losses after epoch  40 0.020038967952132225 0.020713109523057938
+Train and Validation losses after epoch  50 0.019763145595788956 0.020668253302574158
+Train and Validation losses after epoch  60 0.019493108615279198 0.02065366879105568
+Train and Validation losses after epoch  70 0.019221432507038116 0.020666277036070824
+Train and Validation losses after epoch  80 0.018947627395391464 0.020703855901956558
+Train and Validation losses after epoch  90 0.018669387325644493 0.020746977999806404
+Train and Validation losses after epoch  100 0.018388008698821068 0.020803360268473625
+Train and Validation losses after epoch  110 0.018106374889612198 0.020860696211457253
+Train and Validation losses after epoch  120 0.01782865822315216 0.020924758166074753
+Train and Validation losses after epoch  130 0.01755809411406517 0.021000999957323074
+Train and Validation losses after epoch  140 0.017299475148320198 0.021086638793349266
+Train and Validation losses after epoch  150 0.0170559324324131 0.0211839210242033
+Train and Validation losses after epoch  160 0.016827821731567383 0.02128753811120987
+Train and Validation losses after epoch  170 0.016615530475974083 0.02139425463974476
+Train and Validation losses after epoch  180 0.01641993224620819 0.021503690630197525
+Train and Validation losses after epoch  190 0.016238287091255188 0.021616188809275627
+Train and Validation losses after epoch  200 0.01607052981853485 0.02172825112938881
+Train and Validation losses after epoch  210 0.015915941447019577 0.021833285689353943
+Train and Validation losses after epoch  220 0.01577422209084034 0.021931318566203117
+Train and Validation losses after epoch  230 0.01564347743988037 0.022033995017409325
+Train and Validation losses after epoch  240 0.015522331930696964 0.02214113064110279
+Train and Validation losses after epoch  250 0.015410155057907104 0.022252975031733513
+Train and Validation losses after epoch  260 0.015306232497096062 0.02235649712383747
+Train and Validation losses after epoch  270 0.015209873206913471 0.022459927946329117
+Train and Validation losses after epoch  280 0.015120764262974262 0.022554779425263405
+Train and Validation losses after epoch  290 0.015037735924124718 0.022641021758317947
+Train and Validation losses after epoch  300 0.014960012398660183 0.022730138152837753
+Train and Validation losses after epoch  310 0.014888469129800797 0.022815246134996414
+Train and Validation losses after epoch  320 0.014820748940110207 0.022902173921465874
+Train and Validation losses after epoch  330 0.014757273718714714 0.022984758019447327
+Train and Validation losses after epoch  340 0.014697601087391376 0.023064158856868744
+Train and Validation losses after epoch  350 0.014641033485531807 0.023148979991674423
+Train and Validation losses after epoch  360 0.014588204212486744 0.02322738617658615
+Train and Validation losses after epoch  370 0.014538618735969067 0.023307032883167267
+Train and Validation losses after epoch  380 0.01449155155569315 0.023381337523460388
+Train and Validation losses after epoch  390 0.014446793124079704 0.023455433547496796
+Final loss of model:  0.014408444985747337
+Best validation loss 0.020653322339057922 at epoch 63 for model nn_{'hl_1_units': 100, 'hl_2_units': 0, 'learning_rate': 0.001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optimizer.ADAM: 1>}
+Loss on training data: 0.014404245987500893
+Loss on validation data: 0.02352986879652992
+num parameters  4
+Sequential(
+  (0): Linear(in_features=300, out_features=300, bias=True)
+  (1): ReLU()
+  (2): Linear(in_features=300, out_features=100, bias=True)
+)
+Cound not load model from file ../model/nn/nn_{'hl_1_units': 300, 'hl_2_units': 0, 'learning_rate': 0.001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optimizer.ADAM: 1>}. Exception [Errno 2] No such file or directory: "../model/nn/nn_{'hl_1_units': 300, 'hl_2_units': 0, 'learning_rate': 0.001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optimizer.ADAM: 1>}". Learning again.
+shape of y_train_pred torch.Size([6206, 100])
+Train and Validation losses after epoch  0 0.023400183767080307 0.0231169480830431
+Train and Validation losses after epoch  10 0.02061784267425537 0.020988978445529938
+Train and Validation losses after epoch  20 0.01979442685842514 0.020616749301552773
+Train and Validation losses after epoch  30 0.01914461888372898 0.02055763453245163
+Train and Validation losses after epoch  40 0.01846788451075554 0.020525602623820305
+Train and Validation losses after epoch  50 0.01773170568048954 0.020495617762207985
+Train and Validation losses after epoch  60 0.01694660820066929 0.020499778911471367
+Train and Validation losses after epoch  70 0.016156796365976334 0.020549634471535683
+Train and Validation losses after epoch  80 0.015403310768306255 0.0206750500947237
+Train and Validation losses after epoch  90 0.014712263830006123 0.020865721628069878
+Train and Validation losses after epoch  100 0.01409206259995699 0.021102644503116608
+Train and Validation losses after epoch  110 0.013540065847337246 0.021365607157349586
+Train and Validation losses after epoch  120 0.013047377578914165 0.021641144528985023
+Train and Validation losses after epoch  130 0.012608349323272705 0.021925587207078934
+Train and Validation losses after epoch  140 0.012215889059007168 0.02222754806280136
+Train and Validation losses after epoch  150 0.011865530163049698 0.02252700738608837
+Train and Validation losses after epoch  160 0.011551324278116226 0.02284388802945614
+Train and Validation losses after epoch  170 0.011268713511526585 0.023154033347964287
+Train and Validation losses after epoch  180 0.01101386733353138 0.023464800789952278
+Train and Validation losses after epoch  190 0.010783528909087181 0.02377820573747158
+Train and Validation losses after epoch  200 0.010575936175882816 0.02407824993133545
+Train and Validation losses after epoch  210 0.010389073751866817 0.024366633966565132
+Train and Validation losses after epoch  220 0.010218625888228416 0.024639492854475975
+Train and Validation losses after epoch  230 0.01006252970546484 0.024897465482354164
+Train and Validation losses after epoch  240 0.009918609634041786 0.025146331638097763
+Train and Validation losses after epoch  250 0.009785949252545834 0.025380538776516914
+Train and Validation losses after epoch  260 0.009662946686148643 0.02560463361442089
+Train and Validation losses after epoch  270 0.009547294117510319 0.02583005279302597
+Train and Validation losses after epoch  280 0.009439739398658276 0.026040690019726753
+Train and Validation losses after epoch  290 0.00933937169611454 0.026254983618855476
+Train and Validation losses after epoch  300 0.009246524423360825 0.026461733505129814
+Train and Validation losses after epoch  310 0.009156706742942333 0.026661787182092667
+Train and Validation losses after epoch  320 0.00907384604215622 0.02686207741498947
+Train and Validation losses after epoch  330 0.00899498350918293 0.02705308049917221
+Train and Validation losses after epoch  340 0.008920340798795223 0.027237875387072563
+Train and Validation losses after epoch  350 0.008852324448525906 0.027430089190602303
+Train and Validation losses after epoch  360 0.008784206584095955 0.027618296444416046
+Train and Validation losses after epoch  370 0.008721093647181988 0.027786770835518837
+Train and Validation losses after epoch  380 0.00866011343896389 0.027951041236519814
+Train and Validation losses after epoch  390 0.008602379821240902 0.028116343542933464
+Final loss of model:  0.008553298190236092
+Best validation loss 0.020494600757956505 at epoch 55 for model nn_{'hl_1_units': 300, 'hl_2_units': 0, 'learning_rate': 0.001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optimizer.ADAM: 1>}
+Loss on training data: 0.008547583183643905
+Loss on validation data: 0.02828081095423288
+num parameters  4
+Sequential(
+  (0): Linear(in_features=300, out_features=400, bias=True)
+  (1): ReLU()
+  (2): Linear(in_features=400, out_features=100, bias=True)
+)
+Cound not load model from file ../model/nn/nn_{'hl_1_units': 400, 'hl_2_units': 0, 'learning_rate': 0.001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optimizer.ADAM: 1>}. Exception [Errno 2] No such file or directory: "../model/nn/nn_{'hl_1_units': 400, 'hl_2_units': 0, 'learning_rate': 0.001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optimizer.ADAM: 1>}". Learning again.
+shape of y_train_pred torch.Size([6206, 100])
+Train and Validation losses after epoch  0 0.02328796498477459 0.023024875670671463
+Train and Validation losses after epoch  10 0.02046280726790428 0.0209041777998209
+Train and Validation losses after epoch  20 0.01956859789788723 0.02061673253774643
+Train and Validation losses after epoch  30 0.018814174458384514 0.02053673192858696
+Train and Validation losses after epoch  40 0.01800614595413208 0.020471876487135887
+Train and Validation losses after epoch  50 0.017111729830503464 0.02042434923350811
+Train and Validation losses after epoch  60 0.01617545448243618 0.02044130116701126
+Train and Validation losses after epoch  70 0.015257393009960651 0.020542902871966362
+Train and Validation losses after epoch  80 0.01440263818949461 0.020729240030050278
+Train and Validation losses after epoch  90 0.013630173169076443 0.020975418388843536
+Train and Validation losses after epoch  100 0.012936416082084179 0.021251646801829338
+Train and Validation losses after epoch  110 0.012323418632149696 0.021576404571533203
+Train and Validation losses after epoch  120 0.011781870387494564 0.021917788311839104
+Train and Validation losses after epoch  130 0.01130339503288269 0.02227243408560753
+Train and Validation losses after epoch  140 0.010878871195018291 0.02263607457280159
+Train and Validation losses after epoch  150 0.01050057914108038 0.023012451827526093
+Train and Validation losses after epoch  160 0.010162311606109142 0.02338254079222679
+Train and Validation losses after epoch  170 0.009859226644039154 0.023749105632305145
+Train and Validation losses after epoch  180 0.009586740285158157 0.02410692721605301
+Train and Validation losses after epoch  190 0.009339465759694576 0.024464674293994904
+Train and Validation losses after epoch  200 0.009116812609136105 0.02482253685593605
+Train and Validation losses after epoch  210 0.008913412690162659 0.02515108697116375
+Train and Validation losses after epoch  220 0.008728208020329475 0.025483334437012672
+Train and Validation losses after epoch  230 0.008559389039874077 0.025804653763771057
+Train and Validation losses after epoch  240 0.008408566936850548 0.026100507006049156
+Train and Validation losses after epoch  250 0.008263110183179379 0.026381490752100945
+Train and Validation losses after epoch  260 0.008130543865263462 0.02666427381336689
+Train and Validation losses after epoch  270 0.008009251207113266 0.02694780007004738
+Train and Validation losses after epoch  280 0.007895605638623238 0.027230147272348404
+Train and Validation losses after epoch  290 0.007791994139552116 0.027491919696331024
+Train and Validation losses after epoch  300 0.007691137958317995 0.027742236852645874
+Train and Validation losses after epoch  310 0.0075958482921123505 0.027982980012893677
+Train and Validation losses after epoch  320 0.007505706511437893 0.02822517417371273
+Train and Validation losses after epoch  330 0.007423193659633398 0.028471654281020164
+Train and Validation losses after epoch  340 0.007344397716224194 0.028700275346636772
+Train and Validation losses after epoch  350 0.007268281187862158 0.028921108692884445
+Train and Validation losses after epoch  360 0.0071957288309931755 0.029135527089238167
+Train and Validation losses after epoch  370 0.007128008641302586 0.029362937435507774
+Train and Validation losses after epoch  380 0.007063285913318396 0.029570430517196655
+Train and Validation losses after epoch  390 0.007015632465481758 0.029779812321066856
+Final loss of model:  0.006952361669391394
+Best validation loss 0.020420391112565994 at epoch 54 for model nn_{'hl_1_units': 400, 'hl_2_units': 0, 'learning_rate': 0.001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optimizer.ADAM: 1>}
+Loss on training data: 0.006947539485976003
+Loss on validation data: 0.02995842513001413
+num parameters  4
+Sequential(
+  (0): Linear(in_features=300, out_features=500, bias=True)
+  (1): ReLU()
+  (2): Linear(in_features=500, out_features=100, bias=True)
+)
+Cound not load model from file ../model/nn/nn_{'hl_1_units': 500, 'hl_2_units': 0, 'learning_rate': 0.001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optimizer.ADAM: 1>}. Exception [Errno 2] No such file or directory: "../model/nn/nn_{'hl_1_units': 500, 'hl_2_units': 0, 'learning_rate': 0.001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optimizer.ADAM: 1>}". Learning again.
+shape of y_train_pred torch.Size([6206, 100])
+Train and Validation losses after epoch  0 0.02293548919260502 0.022665569558739662
+Train and Validation losses after epoch  10 0.02022305689752102 0.02080388180911541
+Train and Validation losses after epoch  20 0.019257860258221626 0.020547887310385704
+Train and Validation losses after epoch  30 0.018371375277638435 0.020451035350561142
+Train and Validation losses after epoch  40 0.017393773421645164 0.020366203039884567
+Train and Validation losses after epoch  50 0.016327641904354095 0.020336579531431198
+Train and Validation losses after epoch  60 0.015246796421706676 0.020398149266839027
+Train and Validation losses after epoch  70 0.014222902245819569 0.02056393213570118
+Train and Validation losses after epoch  80 0.013293209485709667 0.020808370783925056
+Train and Validation losses after epoch  90 0.012465015053749084 0.021137740463018417
+Train and Validation losses after epoch  100 0.011737850494682789 0.02151166833937168
+Train and Validation losses after epoch  110 0.011098833754658699 0.021909533068537712
+Train and Validation losses after epoch  120 0.010535717010498047 0.022319847717881203
+Train and Validation losses after epoch  130 0.010039284825325012 0.02273780107498169
+Train and Validation losses after epoch  140 0.009600096382200718 0.023149248212575912
+Train and Validation losses after epoch  150 0.009210824966430664 0.023566655814647675
+Train and Validation losses after epoch  160 0.008863546885550022 0.023984866216778755
+Train and Validation losses after epoch  170 0.00855345744639635 0.02440299093723297
+Train and Validation losses after epoch  180 0.00827727746218443 0.024819515645503998
+Train and Validation losses after epoch  190 0.008032262325286865 0.025217264890670776
+Train and Validation losses after epoch  200 0.0078050484880805016 0.025595298036932945
+Train and Validation losses after epoch  210 0.0076025743037462234 0.025968709960579872
+Train and Validation losses after epoch  220 0.007421562448143959 0.02633119933307171
+Train and Validation losses after epoch  230 0.007253010291606188 0.026666687801480293
+Train and Validation losses after epoch  240 0.007100594229996204 0.02699950523674488
+Train and Validation losses after epoch  250 0.006961043458431959 0.02732543647289276
+Train and Validation losses after epoch  260 0.006829546298831701 0.0276402048766613
+Train and Validation losses after epoch  270 0.006707758642733097 0.027943775057792664
+Train and Validation losses after epoch  280 0.006600168999284506 0.028227416798472404
+Train and Validation losses after epoch  290 0.006491192150861025 0.028494451195001602
+Train and Validation losses after epoch  300 0.006391733419150114 0.028763925656676292
+Train and Validation losses after epoch  310 0.006299677770584822 0.02902310900390148
+Train and Validation losses after epoch  320 0.006221274845302105 0.02928527258336544
+Train and Validation losses after epoch  330 0.0061342655681073666 0.029520880430936813
+Train and Validation losses after epoch  340 0.006054907571524382 0.029749510809779167
+Train and Validation losses after epoch  350 0.005981098394840956 0.029987631365656853
+Train and Validation losses after epoch  360 0.005911208223551512 0.03023212030529976
+Train and Validation losses after epoch  370 0.005871307570487261 0.03050987236201763
+Train and Validation losses after epoch  380 0.0057897064834833145 0.030689984560012817
+Train and Validation losses after epoch  390 0.005728231742978096 0.030899440869688988
+Final loss of model:  0.005676844622939825
+Best validation loss 0.020336579531431198 at epoch 51 for model nn_{'hl_1_units': 500, 'hl_2_units': 0, 'learning_rate': 0.001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optimizer.ADAM: 1>}
+Loss on training data: 0.005671144516191186
+Loss on validation data: 0.031106788380640706
+num parameters  4
+
+Process finished with exit code 0

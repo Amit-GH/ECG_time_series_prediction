@@ -1,0 +1,786 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  3 DEC 2020 19:29
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**HW03-Report.tex
+(./HW03-Report.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-03-06>
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/preprint/fullpage.sty
+Package: fullpage 1999/02/23 1.1 (PWD)
+\FP@margin=\skip49
+)
+(./testpoints.tex
+\c@problemnum=\count175
+\c@partnum=\count176
+\c@totalpoints=\count177
+\c@curprobpts=\count178
+\c@totalparts=\count179
+\c@pagepoints=\count180
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2020/03/22 3.42 The Babel package
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2020/03/22 3.42 Babel switching mechanism
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2020/03/22 3.42 Babel common definitions
+\babel@savecnt=\count181
+\U@D=\dimen137
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count182
+)
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language21) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language21) on input line 108.
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2018/08/11 v1.3c Input encoding file
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 11
+2.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/inconsolata/inconsolata.sty
+Package: inconsolata 2019/05/17 v1.12
+
+`inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks18
+\XKV@tempa@toks=\toks19
+)
+\XKV@depth=\count183
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\zifour@ocount=\count184
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen138
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen139
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count185
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count186
+\leftroot@=\count187
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count188
+\DOTSCASE@=\count189
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen140
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count190
+\c@MaxMatrixCols=\count191
+\dotsspace@=\muskip16
+\c@parentequation=\count192
+\dspbrk@lvl=\count193
+\tag@help=\toks21
+\row@=\count194
+\column@=\count195
+\maxfields@=\count196
+\andhelp@=\toks22
+\eqnshift@=\dimen141
+\alignsep@=\dimen142
+\tagshift@=\dimen143
+\tagwidth@=\dimen144
+\totwidth@=\dimen145
+\lineht@=\dimen146
+\@envbody=\toks23
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen147
+\Hy@linkcounter=\count197
+\Hy@pagecounter=\count198
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count199
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4800.
+\c@Hy@tempcnt=\count266
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen148
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count267
+\Field@Width=\dimen149
+\Fld@charsize=\dimen150
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count268
+\c@Item=\count269
+\c@Hfootnote=\count270
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+)
+\Fld@listcount=\count271
+\c@bookmark@seq@number=\count272
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip53
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen151
+\captionmargin@=\dimen152
+\captionwidth=\dimen153
+\caption@tempdima=\dimen154
+\caption@indent=\dimen155
+\caption@parindent=\dimen156
+\caption@hangindent=\dimen157
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count273
+\c@continuedfloat=\count274
+Package caption Info: hyperref package is loaded.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
+\c@subfigure=\count275
+\c@subtable=\count276
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count277
+\lst@gtempboxa=\box47
+\lst@token=\toks25
+\lst@length=\count278
+\lst@currlwidth=\dimen158
+\lst@column=\count279
+\lst@pos=\count280
+\lst@lostspace=\dimen159
+\lst@width=\dimen160
+\lst@newlines=\count281
+\lst@lineno=\count282
+\lst@maxwidth=\dimen161
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count283
+\lst@skipnumbers=\count284
+\lst@framebox=\box48
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count285
+\l__pdf_internal_box=\box49
+)
+(./HW03-Report.aux
+
+LaTeX Warning: Label `fig:val_pred_given_nn_3' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:val_pred_given_nn_3' multiply defined.
+
+
+LaTeX Warning: Label `fig:val_pred_given_nn_3' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:val_pred_given_nn_3' multiply defined.
+
+)
+\openout1 = `HW03-Report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+ (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count286
+\scratchdimen=\dimen162
+\scratchbox=\box50
+\nofMPsegments=\count287
+\nofMParguments=\count288
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count289
+\MPscratchDim=\dimen163
+\MPnumerator=\count290
+\makeMPintoPDFobject=\count291
+\everyMPtoPDFconversion=\toks27
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
+\AtBeginShipoutBox=\box51
+Package hyperref Info: Link coloring OFF on input line 45.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count292
+)
+LaTeX Info: Redefining \ref on input line 45.
+LaTeX Info: Redefining \pageref on input line 45.
+LaTeX Info: Redefining \nameref on input line 45.
+ (./HW03-Report.out) (./HW03-Report.out)
+\@outlinefile=\write3
+\openout3 = `HW03-Report.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count293
+LaTeX Font Info:    Trying to load font information for U+msa on input line 63.
+
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 63.
+
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (33.61427pt too wide) detected at line 87
+\OT1/cmr/m/n/10.95 = [] [] [] [](\OML/cmm/m/it/10.95 [][]y[]y[]\OT1/cmr/bx/n/
+10.95 x[]x[]\OT1/cmr/m/n/10.95 ) + [] \OML/cmm/m/it/10.95 H\OT1/cmr/m/n/10.95 (
+\OML/cmm/m/it/10.95 []\OT1/cmr/m/n/10.95 )  []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--89
+
+ []
+
+[1
+
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+
+ []
+
+<./report_images/prediction_plot_1.jpg, id=26, 433.62pt x 433.62pt>
+File: ./report_images/prediction_plot_1.jpg Graphic file (type jpg)
+<use ./report_images/prediction_plot_1.jpg>
+Package pdftex.def Info: ./report_images/prediction_plot_1.jpg  used on input l
+ine 126.
+(pdftex.def)             Requested size: 84.55246pt x 84.55225pt.
+<./report_images/prediction_plot_2.jpg, id=27, 433.62pt x 433.62pt>
+File: ./report_images/prediction_plot_2.jpg Graphic file (type jpg)
+<use ./report_images/prediction_plot_2.jpg>
+Package pdftex.def Info: ./report_images/prediction_plot_2.jpg  used on input l
+ine 131.
+(pdftex.def)             Requested size: 84.55246pt x 84.55225pt.
+<./report_images/prediction_plot_3.jpg, id=28, 433.62pt x 433.62pt>
+File: ./report_images/prediction_plot_3.jpg Graphic file (type jpg)
+<use ./report_images/prediction_plot_3.jpg>
+Package pdftex.def Info: ./report_images/prediction_plot_3.jpg  used on input l
+ine 136.
+(pdftex.def)             Requested size: 84.55246pt x 84.55225pt.
+<./report_images/prediction_plot_4.jpg, id=29, 433.62pt x 433.62pt>
+File: ./report_images/prediction_plot_4.jpg Graphic file (type jpg)
+<use ./report_images/prediction_plot_4.jpg>
+Package pdftex.def Info: ./report_images/prediction_plot_4.jpg  used on input l
+ine 141.
+(pdftex.def)             Requested size: 84.55246pt x 84.55225pt.
+<./report_images/prediction_plot_5.jpg, id=30, 433.62pt x 433.62pt>
+File: ./report_images/prediction_plot_5.jpg Graphic file (type jpg)
+<use ./report_images/prediction_plot_5.jpg>
+Package pdftex.def Info: ./report_images/prediction_plot_5.jpg  used on input l
+ine 146.
+(pdftex.def)             Requested size: 84.55246pt x 84.55225pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--159
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
+
+ []
+
+[2 <./report_images/prediction_plot_1.jpg> <./report_images/prediction_plot_2.j
+pg> <./report_images/prediction_plot_3.jpg> <./report_images/prediction_plot_4.
+jpg> <./report_images/prediction_plot_5.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
+
+ []
+
+<./report_images/train_val_loss_nn_{'hl_1_units': 500, 'hl_2_units': 200, 'lear
+ning_rate': 0.0001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optimizer
+.ADAM: 1>}.jpg, id=43, 433.62pt x 433.62pt>
+File: ./report_images/train_val_loss_nn_{'hl_1_units': 500, 'hl_2_units': 200, 
+'learning_rate': 0.0001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Opti
+mizer.ADAM: 1>}.jpg Graphic file (type jpg)
+<use ./report_images/train_val_loss_nn_{'hl_1_units': 500, 'hl_2_units': 200, '
+learning_rate': 0.0001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optim
+izer.ADAM: 1>}.jpg>
+Package pdftex.def Info: ./report_images/train_val_loss_nn_{'hl_1_units': 500, 
+'hl_2_units': 200, 'learning_rate': 0.0001, 'momentum': 0.9, 'nesterov': False,
+ 'optimizer': <Optimizer.ADAM: 1>}.jpg  used on input line 184.
+(pdftex.def)             Requested size: 84.55246pt x 84.55225pt.
+<./report_images/train_val_loss_nn_{'hl_1_units': 500, 'hl_2_units': 200, 'lear
+ning_rate': 0.001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optimizer.
+ADAM: 1>}.jpg, id=44, 433.62pt x 433.62pt>
+File: ./report_images/train_val_loss_nn_{'hl_1_units': 500, 'hl_2_units': 200, 
+'learning_rate': 0.001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optim
+izer.ADAM: 1>}.jpg Graphic file (type jpg)
+<use ./report_images/train_val_loss_nn_{'hl_1_units': 500, 'hl_2_units': 200, '
+learning_rate': 0.001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optimi
+zer.ADAM: 1>}.jpg>
+Package pdftex.def Info: ./report_images/train_val_loss_nn_{'hl_1_units': 500, 
+'hl_2_units': 200, 'learning_rate': 0.001, 'momentum': 0.9, 'nesterov': False, 
+'optimizer': <Optimizer.ADAM: 1>}.jpg  used on input line 190.
+(pdftex.def)             Requested size: 84.55246pt x 84.55225pt.
+<./report_images/train_val_loss_nn_{'hl_1_units': 500, 'hl_2_units': 200, 'lear
+ning_rate': 0.01, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optimizer.A
+DAM: 1>}.jpg, id=45, 433.62pt x 433.62pt>
+File: ./report_images/train_val_loss_nn_{'hl_1_units': 500, 'hl_2_units': 200, 
+'learning_rate': 0.01, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optimi
+zer.ADAM: 1>}.jpg Graphic file (type jpg)
+<use ./report_images/train_val_loss_nn_{'hl_1_units': 500, 'hl_2_units': 200, '
+learning_rate': 0.01, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optimiz
+er.ADAM: 1>}.jpg>
+Package pdftex.def Info: ./report_images/train_val_loss_nn_{'hl_1_units': 500, 
+'hl_2_units': 200, 'learning_rate': 0.01, 'momentum': 0.9, 'nesterov': False, '
+optimizer': <Optimizer.ADAM: 1>}.jpg  used on input line 196.
+(pdftex.def)             Requested size: 84.55246pt x 84.55225pt.
+<./report_images/train_val_loss_nn_{'hl_1_units': 500, 'hl_2_units': 200, 'lear
+ning_rate': 0.1, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optimizer.AD
+AM: 1>}.jpg, id=46, 433.62pt x 433.62pt>
+File: ./report_images/train_val_loss_nn_{'hl_1_units': 500, 'hl_2_units': 200, 
+'learning_rate': 0.1, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optimiz
+er.ADAM: 1>}.jpg Graphic file (type jpg)
+<use ./report_images/train_val_loss_nn_{'hl_1_units': 500, 'hl_2_units': 200, '
+learning_rate': 0.1, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optimize
+r.ADAM: 1>}.jpg>
+Package pdftex.def Info: ./report_images/train_val_loss_nn_{'hl_1_units': 500, 
+'hl_2_units': 200, 'learning_rate': 0.1, 'momentum': 0.9, 'nesterov': False, 'o
+ptimizer': <Optimizer.ADAM: 1>}.jpg  used on input line 202.
+(pdftex.def)             Requested size: 84.55246pt x 84.55225pt.
+<./report_images/train_val_loss_nn_{'hl_1_units': 500, 'hl_2_units': 200, 'lear
+ning_rate': 1.0, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optimizer.AD
+AM: 1>}.jpg, id=47, 433.62pt x 433.62pt>
+File: ./report_images/train_val_loss_nn_{'hl_1_units': 500, 'hl_2_units': 200, 
+'learning_rate': 1.0, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optimiz
+er.ADAM: 1>}.jpg Graphic file (type jpg)
+<use ./report_images/train_val_loss_nn_{'hl_1_units': 500, 'hl_2_units': 200, '
+learning_rate': 1.0, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optimize
+r.ADAM: 1>}.jpg>
+Package pdftex.def Info: ./report_images/train_val_loss_nn_{'hl_1_units': 500, 
+'hl_2_units': 200, 'learning_rate': 1.0, 'momentum': 0.9, 'nesterov': False, 'o
+ptimizer': <Optimizer.ADAM: 1>}.jpg  used on input line 208.
+(pdftex.def)             Requested size: 84.55246pt x 84.55225pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
+
+ []
+
+
+Overfull \hbox (16.2779pt too wide) in paragraph at lines 248--248
+ [][] 
+ []
+
+
+Overfull \hbox (16.2779pt too wide) in paragraph at lines 261--261
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
+
+ []
+
+[3 <./report_images/train_val_loss_nn_{'hl_1_units': 500, 'hl_2_units': 200, 'l
+earning_rate': 0.0001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optimi
+zer.ADAM: 1>}.jpg> <./report_images/train_val_loss_nn_{'hl_1_units': 500, 'hl_2
+_units': 200, 'learning_rate': 0.001, 'momentum': 0.9, 'nesterov': False, 'opti
+mizer': <Optimizer.ADAM: 1>}.jpg> <./report_images/train_val_loss_nn_{'hl_1_uni
+ts': 500, 'hl_2_units': 200, 'learning_rate': 0.01, 'momentum': 0.9, 'nesterov'
+: False, 'optimizer': <Optimizer.ADAM: 1>}.jpg> <./report_images/train_val_loss
+_nn_{'hl_1_units': 500, 'hl_2_units': 200, 'learning_rate': 0.1, 'momentum': 0.
+9, 'nesterov': False, 'optimizer': <Optimizer.ADAM: 1>}.jpg> <./report_images/t
+rain_val_loss_nn_{'hl_1_units': 500, 'hl_2_units': 200, 'learning_rate': 1.0, '
+momentum': 0.9, 'nesterov': False, 'optimizer': <Optimizer.ADAM: 1>}.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 282--283
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 317--318
+
+ []
+
+[4]
+<./report_images/best_nn.png, id=68, 553.06625pt x 362.35374pt>
+File: ./report_images/best_nn.png Graphic file (type png)
+<use ./report_images/best_nn.png>
+Package pdftex.def Info: ./report_images/best_nn.png  used on input line 322.
+(pdftex.def)             Requested size: 276.53244pt x 181.17642pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 328--329
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
+
+ []
+
+<./report_images/prediction_plot_nn_{'hl_1_units': 500, 'hl_2_units': 200, 'lea
+rning_rate': 0.001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optimizer
+.ADAM: 1>}val_1.jpg, id=71, 433.62pt x 433.62pt>
+File: ./report_images/prediction_plot_nn_{'hl_1_units': 500, 'hl_2_units': 200,
+ 'learning_rate': 0.001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Opti
+mizer.ADAM: 1>}val_1.jpg Graphic file (type jpg)
+<use ./report_images/prediction_plot_nn_{'hl_1_units': 500, 'hl_2_units': 200, 
+'learning_rate': 0.001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optim
+izer.ADAM: 1>}val_1.jpg>
+Package pdftex.def Info: ./report_images/prediction_plot_nn_{'hl_1_units': 500,
+ 'hl_2_units': 200, 'learning_rate': 0.001, 'momentum': 0.9, 'nesterov': False,
+ 'optimizer': <Optimizer.ADAM: 1>}val_1.jpg  used on input line 336.
+(pdftex.def)             Requested size: 84.55246pt x 84.55225pt.
+<./report_images/prediction_plot_nn_{'hl_1_units': 500, 'hl_2_units': 200, 'lea
+rning_rate': 0.001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optimizer
+.ADAM: 1>}val_2.jpg, id=72, 433.62pt x 433.62pt>
+File: ./report_images/prediction_plot_nn_{'hl_1_units': 500, 'hl_2_units': 200,
+ 'learning_rate': 0.001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Opti
+mizer.ADAM: 1>}val_2.jpg Graphic file (type jpg)
+<use ./report_images/prediction_plot_nn_{'hl_1_units': 500, 'hl_2_units': 200, 
+'learning_rate': 0.001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optim
+izer.ADAM: 1>}val_2.jpg>
+Package pdftex.def Info: ./report_images/prediction_plot_nn_{'hl_1_units': 500,
+ 'hl_2_units': 200, 'learning_rate': 0.001, 'momentum': 0.9, 'nesterov': False,
+ 'optimizer': <Optimizer.ADAM: 1>}val_2.jpg  used on input line 341.
+(pdftex.def)             Requested size: 84.55246pt x 84.55225pt.
+<./report_images/prediction_plot_nn_{'hl_1_units': 500, 'hl_2_units': 200, 'lea
+rning_rate': 0.001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optimizer
+.ADAM: 1>}val_3.jpg, id=73, 433.62pt x 433.62pt>
+File: ./report_images/prediction_plot_nn_{'hl_1_units': 500, 'hl_2_units': 200,
+ 'learning_rate': 0.001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Opti
+mizer.ADAM: 1>}val_3.jpg Graphic file (type jpg)
+<use ./report_images/prediction_plot_nn_{'hl_1_units': 500, 'hl_2_units': 200, 
+'learning_rate': 0.001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optim
+izer.ADAM: 1>}val_3.jpg>
+Package pdftex.def Info: ./report_images/prediction_plot_nn_{'hl_1_units': 500,
+ 'hl_2_units': 200, 'learning_rate': 0.001, 'momentum': 0.9, 'nesterov': False,
+ 'optimizer': <Optimizer.ADAM: 1>}val_3.jpg  used on input line 346.
+(pdftex.def)             Requested size: 84.55246pt x 84.55225pt.
+<./report_images/prediction_plot_nn_{'hl_1_units': 500, 'hl_2_units': 200, 'lea
+rning_rate': 0.001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optimizer
+.ADAM: 1>}val_4.jpg, id=74, 433.62pt x 433.62pt>
+File: ./report_images/prediction_plot_nn_{'hl_1_units': 500, 'hl_2_units': 200,
+ 'learning_rate': 0.001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Opti
+mizer.ADAM: 1>}val_4.jpg Graphic file (type jpg)
+<use ./report_images/prediction_plot_nn_{'hl_1_units': 500, 'hl_2_units': 200, 
+'learning_rate': 0.001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optim
+izer.ADAM: 1>}val_4.jpg>
+Package pdftex.def Info: ./report_images/prediction_plot_nn_{'hl_1_units': 500,
+ 'hl_2_units': 200, 'learning_rate': 0.001, 'momentum': 0.9, 'nesterov': False,
+ 'optimizer': <Optimizer.ADAM: 1>}val_4.jpg  used on input line 351.
+(pdftex.def)             Requested size: 84.55246pt x 84.55225pt.
+<./report_images/prediction_plot_nn_{'hl_1_units': 500, 'hl_2_units': 200, 'lea
+rning_rate': 0.001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optimizer
+.ADAM: 1>}val_5.jpg, id=75, 433.62pt x 433.62pt>
+File: ./report_images/prediction_plot_nn_{'hl_1_units': 500, 'hl_2_units': 200,
+ 'learning_rate': 0.001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Opti
+mizer.ADAM: 1>}val_5.jpg Graphic file (type jpg)
+<use ./report_images/prediction_plot_nn_{'hl_1_units': 500, 'hl_2_units': 200, 
+'learning_rate': 0.001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optim
+izer.ADAM: 1>}val_5.jpg>
+Package pdftex.def Info: ./report_images/prediction_plot_nn_{'hl_1_units': 500,
+ 'hl_2_units': 200, 'learning_rate': 0.001, 'momentum': 0.9, 'nesterov': False,
+ 'optimizer': <Optimizer.ADAM: 1>}val_5.jpg  used on input line 356.
+(pdftex.def)             Requested size: 84.55246pt x 84.55225pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 365.
+[5 <./report_images/best_nn.png> <./report_images/prediction_plot_nn_{'hl_1_uni
+ts': 500, 'hl_2_units': 200, 'learning_rate': 0.001, 'momentum': 0.9, 'nesterov
+': False, 'optimizer': <Optimizer.ADAM: 1>}val_1.jpg> <./report_images/predicti
+on_plot_nn_{'hl_1_units': 500, 'hl_2_units': 200, 'learning_rate': 0.001, 'mome
+ntum': 0.9, 'nesterov': False, 'optimizer': <Optimizer.ADAM: 1>}val_2.jpg> <./r
+eport_images/prediction_plot_nn_{'hl_1_units': 500, 'hl_2_units': 200, 'learnin
+g_rate': 0.001, 'momentum': 0.9, 'nesterov': False, 'optimizer': <Optimizer.ADA
+M: 1>}val_3.jpg> <./report_images/prediction_plot_nn_{'hl_1_units': 500, 'hl_2_
+units': 200, 'learning_rate': 0.001, 'momentum': 0.9, 'nesterov': False, 'optim
+izer': <Optimizer.ADAM: 1>}val_4.jpg> <./report_images/prediction_plot_nn_{'hl_
+1_units': 500, 'hl_2_units': 200, 'learning_rate': 0.001, 'momentum': 0.9, 'nes
+terov': False, 'optimizer': <Optimizer.ADAM: 1>}val_5.jpg>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 365.
+ (./HW03-Report.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 365.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 365.
+Package rerunfilecheck Info: File `HW03-Report.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 365.
+ ) 
+Here is how much of TeX's memory you used:
+ 10194 strings out of 480608
+ 163539 string characters out of 5903631
+ 432676 words of memory out of 5000000
+ 25857 multiletter control sequences out of 15000+600000
+ 548884 words of font info for 53 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,10n,96p,744b,568s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
+xlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texl
+ive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texli
+ve/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texliv
+e/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/
+2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/20
+20/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2020/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-
+dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2020/te
+xmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2020/texmf-dist/f
+onts/type1/urw/times/utmr8a.pfb>
+Output written on HW03-Report.pdf (5 pages, 3559152 bytes).
+PDF statistics:
+ 131 PDF objects out of 1000 (max. 8388607)
+ 93 compressed objects within 1 object stream
+ 21 named destinations out of 1000 (max. 500000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+
